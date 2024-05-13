@@ -1,0 +1,219 @@
+@font-face {
+    font-family: 'Kulim Park Regular';
+    src: url('fonts/KulimPark-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Kulim Park Bold';
+    src: url('fonts/KulimPark-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Kulim Park SemiBoldItalic';
+    src: url('fonts/KulimPark-SemiBoldItalic.ttf');
+}
+
+@font-face {
+    font-family: 'Inter Regular';
+    src: url('fonts/Inter-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Inter Bold';
+    src: url('fonts/Inter-Bold.ttf');
+}
+
+nav ul{
+    width: 100%; 
+    list-style: none;
+    display: flex; 
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav li{
+    height: 50px; 
+}
+
+nav a{
+    height: 100%; 
+    padding: 0 30px; 
+    text-decoration: none; 
+    display: flex; 
+    align-items: center;
+    color: black; 
+    font-family:'Inter Regular'; 
+}
+
+nav a:hover{
+    color: #486DC3;
+}
+
+nav li:first-child{
+    margin-right: auto; 
+}
+
+.homepage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20vh; 
+}
+
+.headshot {
+    flex: 0 0 auto;
+    margin-right: 20px; 
+}
+
+.homepage h1, .homepage h2 {
+    flex: 1;
+    text-align: left; 
+}
+
+.headshot {
+    height: 50vh; 
+    margin-right: 5vw; 
+}
+
+.intro {
+    flex: 1;
+    text-align: center;
+}
+
+.intro h1 {
+    font-family: 'Kulim Park SemiBoldItalic';
+    font-size:5vw;
+    margin-bottom: 10px; 
+}
+
+.intro h2 {
+    font-family: 'Inter Regular';
+    font-size: 3vw;
+}
+
+.casestudy1, .casestudy2, .casestudy3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25vh; 
+}
+
+.casestudy1 h1, .casestudy2 h1, .casestudy3 h1{
+    font-family: 'Kulim Park Bold';
+    color: #486DC3;
+    font-size: 2vw;
+}
+
+.casestudy1 h2, .casestudy2 h2, .casestudy3 h2{
+    font-family: 'Inter Regular';
+    color: #728CC9;
+    font-size: 1vw;
+}
+
+.csimg{
+    height: 40vh; 
+    margin-left:  15vw; 
+}
+
+.paragraph h1 {
+    font-family: 'Kulim Park Bold';
+    color: #486DC3;
+    font-size: 3vw;
+}
+
+.paragraph p {
+    font-family: 'Kulim Park Bold';
+    color: #728CC9;
+    font-size: 2vw;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutpic {
+    height: 65vh; 
+    margin-left: 100px; 
+    margin-right: 100px; 
+    margin-top: 100px; 
+}
+
+.casestudy-link {
+    text-decoration: none;
+}
+
+.casestudy-link :hover{
+    text-decoration: none;
+    background-color: white; 
+}
+
+.casestudy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5vh; 
+}
+
+.casestudy h1{
+    font-family: 'Kulim Park Bold';
+    color: #486DC3;
+    font-size: 2vw;
+}
+
+.casestudy h2{
+    font-family: 'Inter Regular';
+    color: #728CC9;
+    font-size: 1vw;
+}
+
+.overview{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15vh; 
+    margin-right: 60vh;
+}
+
+.role h1, .tool h1{
+    font-family: 'Kulim Park Bold';
+    color: #486DC3;
+    font-size: 2vw;
+}
+
+.role li, .tool li{
+    font-family: 'Inter Regular';
+    color: #728CC9;
+    font-size: 1vw;
+}
+
+.case h1{
+    font-family: 'Kulim Park Bold';
+    color: #486DC3;
+    font-size: 2vw;
+    margin-right: 15vh;
+    margin-left: 15vh;
+}
+
+.case p{
+    font-family: 'Inter Regular';
+    color: #728CC9;
+    font-size: 1vw;
+    margin-right: 15vh;
+    margin-left: 15vh;
+}
+
+.case li{
+    font-family: 'Inter Regular';
+    color: #728CC9;
+    font-size: 1vw;
+    margin-right: 15vh;
+    margin-left: 15vh;
+}
+
+body{
+
+    min-height: 100vh;
+    background-color: #E0F0FF; 
+}

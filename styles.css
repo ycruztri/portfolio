@@ -196,6 +196,14 @@ nav li:first-child{
     margin-left: 15vh;
 }
 
+.case h2{
+    font-family: 'Inter Bold';
+    color: #728CC9;
+    font-size: 1.2vw;
+    margin-right: 15vh;
+    margin-left: 15vh;
+}
+
 .case p{
     font-family: 'Inter Regular';
     color: #728CC9;
@@ -210,6 +218,15 @@ nav li:first-child{
     font-size: 1vw;
     margin-right: 15vh;
     margin-left: 15vh;
+}
+
+.casepic {
+    height: 50vh;
+    margin-left: 30vw;
+}
+.big {
+    height: 50vh;
+    margin-left: 10vw;
 }
 
 body{
